@@ -3,6 +3,8 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
+~ Nicely Touched by JD to create a nice profile for one of the best Chef's out there. - JD ~
+
 This is Massively, a text-heavy, article-oriented design built around a huge background
 image (with a new parallax implementation I'm testing) and scroll effects (powered by
 Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
