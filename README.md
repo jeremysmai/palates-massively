@@ -1,4 +1,4 @@
-[CENTER]![Personalized Palates](/images/PP_logo.png)
+                      ![Personalized Palates](/images/PP_logo.png)
 
 # PERSONALIZED PALATES
 A website business card for Anthony L. using a Customized design from HTML5UP and thrown together by me.
