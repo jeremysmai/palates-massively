@@ -1,6 +1,6 @@
 ![Personalized Palates](/images/PP_logo.png)
 
-PERSONALIZED PALATES
+# PERSONALIZED PALATES
 A website business card for Anthony L.
 
 ### DESIGN: ![html5up](https://html5up.net) | ![Design]@ajlkn
