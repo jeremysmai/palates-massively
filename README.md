@@ -1,5 +1,6 @@
 <p align="center">
 <img src="/images/PP_logo.png"></img></p>
+
 # PERSONALIZED PALATES
 A website business card for Anthony L. using a Customized design from HTML5UP and thrown together by me.
 git status
