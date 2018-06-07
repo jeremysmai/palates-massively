@@ -1,4 +1,4 @@
-![alt text](/images/PP_logo.png)
+![Personalized Palates](/images/PP_logo.png)
 
 # PERSONALIZED PALATES
 
