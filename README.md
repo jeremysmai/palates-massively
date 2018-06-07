@@ -1,6 +1,6 @@
-
-										  	L O G O
-									PERSONALIZED PALATES
+<!DOCTYPE html>
+<center><img src="PP_logo.png"></img></center>
+<center>PERSONALIZED PALATES</center>
 
 ABOUT:
 Palates-Massively by HTML5 UP (Touched By JD 2018) Made for Anthony Ludwig
