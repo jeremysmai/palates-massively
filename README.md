@@ -1,5 +1,5 @@
+![alt text](images/PP_logo.png)
 
-<center><img src="images/PP_logo.png"></img></center>
 # PERSONALIZED PALATES
 
 ## ABOUT:
