@@ -1,4 +1,4 @@
-![alt text](images/PP_logo.png)
+![alt text](/images/PP_logo.png)
 
 # PERSONALIZED PALATES
 
