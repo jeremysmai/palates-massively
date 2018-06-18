@@ -3,7 +3,7 @@
 
 # PERSONALIZED PALATES
 A website business card for Anthony L. using a Customized design from HTML5UP and thrown together by me.
-* [Website](https://www.jeremysmai.github.io/palates-massively/index.html)
+* [Website](https://jeremysmai.github.io/palates-massively/index.html)
 
 #### DESIGN:
 [html5up](https://www.html5up.net) | [Designer](https://www.ajlkn.io)
