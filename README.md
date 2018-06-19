@@ -21,7 +21,7 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 
 ### To Do
- - [ ] Add Logo To All Pages
+ - [x] Add Logo To All Pages
  - [ ] Build Index (Status: Started)
  - [ ] Build About (Status: Started)
  - [ ] Build Contact (Status: Started)
