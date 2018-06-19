@@ -22,9 +22,10 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
 
 ### To Do
  - [x] Add Logo To All Pages
- - [ ] Build Index (Status: Started)
- - [ ] Build About (Status: Started)
- - [ ] Build Contact (Status: Started)
- - [ ] Build Menus (Status: Started)
+ - [ ] Build Index
+ - [ ] Build About
+ - [x] Build Contact
+ - [ ] Build Menus
+ - [ ] Build Gallery
 
 More In Depth [To Do](https://jeremysmai.github.io/personalizedpalates/Palates_SitePlan.html)
