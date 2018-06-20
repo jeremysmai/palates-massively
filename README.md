@@ -1,9 +1,10 @@
 <p align="center">
+[GitHub Logo](/images/PP_logo.png)
 <img src="/images/PP_logo.png"></img></p>
 
 # PERSONALIZED PALATES
 A website business card for Anthony L. using a Customized design from HTML5UP and thrown together by me.
-* [Website](https://personalizedpalates.com)
+## [Website](https://personalizedpalates.com)
 
 #### DESIGN:
 [html5up](https://www.html5up.net) | [Designer](https://www.ajlkn.io)
@@ -22,7 +23,7 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
 
 ### To Do
  - [x] Add Logo To All Pages
- - [ ] Build Index
+ - [x] Build Index
  - [ ] Build About
  - [x] Build Contact
  - [ ] Build Menus
