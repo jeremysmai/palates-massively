@@ -26,6 +26,7 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
  - [x] Build About
  - [x] Build Contact
  - [ ] Build Menus (Status: Needs Downloadable .pdfs)
- - [ ] Build Gallery
+ - [x] Build Gallery
+ - [ ] Add Slideshow and randomize photos
 
 More In Depth [To Do](https://jeremysmai.github.io/personalizedpalates/Palates_SitePlan.html)
