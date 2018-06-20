@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<html>
+<body>
+  <h4>Message Sent</h4>
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = ;
@@ -40,3 +43,5 @@ function test_input($data) {
   return $data;
 }
 ?>
+</body>
+</html>
