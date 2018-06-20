@@ -1,5 +1,4 @@
 <p align="center">
-![GitHub Logo](/images/PP_logo.png)
 <img src="/images/PP_logo.png"></img></p>
 
 # PERSONALIZED PALATES
