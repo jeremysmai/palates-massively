@@ -9,7 +9,7 @@ A website business card for Anthony L. using a Customized design from HTML5UP an
 [html5up](https://www.html5up.net) | [Designer](https://www.ajlkn.io)
 Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.net) ~ 2018
 ~ Free for personal and commercial use under the CCA 3.0 license [License](https://www.html5up.net/license)
-~ AJ [Website](http://www.aj@lkn.io) | @ajlkn
+~ AJ [@ajlkn](http://www.ajlkn.io)
 
 #### Credits:
   Icons:
@@ -25,9 +25,9 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
  - [x] Build Index
  - [x] Build About
  - [x] Build Contact
- - [x] Build Menus
+ - [x] Build Menus (PDFs included)
  - [x] Build Gallery
- - [ ] Add Slideshow and randomize photos
- - [ ] Create working contact form from site
+ - [x] Add Slideshow and randomize photos
+ - [ ] Create working contact form on site (Contact Page)
 
 More In Depth [To Do](https://jeremysmai.github.io/personalizedpalates/Palates_SitePlan.html)
