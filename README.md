@@ -3,7 +3,6 @@
 
 # PERSONALIZED PALATES
 A website business card for Anthony L. using a Customized design from HTML5UP and thrown together by me. <br />
-<br />
 ### [Website](https://www.personalizedpalates.com)
 
 #### DESIGN:
