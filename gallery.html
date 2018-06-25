@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/gallery.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-loading">
@@ -48,17 +49,17 @@
 							</header>
 								<div class="box alt">
 								<div class="row 50% uniform">
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP1-1.JPG" target="_blank"><img src="images/food/PP1-1.JPG" alt="" /></a></span></div>
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP1-2.JPG" target="_blank"><img src="images/food/PP1-2.JPG" alt="" /></a></span></div>
-									<div class="4u$"><span class="image fit"><a href="images/food/full/PP1-3.JPG" target="_blank"><img src="images/food/PP1-3.JPG" alt="" /></a></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP1-1.JPG" onclick="openModal();currentSlide(1)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP1-2.JPG" onclick="openModal();currentSlide(2)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP1-3.JPG" onclick="openModal();currentSlide(3)" alt="" /></span></div>
 									<!-- Break -->
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP1-4.JPG" target="_blank"><img src="images/food/PP1-4.JPG" alt="" /></a></span></div>
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP1-5.JPG" target="_blank"><img src="images/food/PP1-5.JPG" alt="" /></a></span></div>
-									<div class="4u$"><span class="image fit"><a href="images/food/full/PP2-1.JPG" target="_blank"><img src="images/food/PP2-1.JPG" alt="" /></a></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP1-4.JPG" onclick="openModal();currentSlide(4)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP1-5.JPG" onclick="openModal();currentSlide(5)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP2-1.JPG" onclick="openModal();currentSlide(6)" alt="" /></span></div>
 									<!-- Break -->
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP2-2.JPG" target="_blank"><img src="images/food/PP2-2.JPG" alt="" /></a></span></div>
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP2-3.JPG" target="_blank"><img src="images/food/PP2-3.JPG" alt="" /></a></span></div>
-									<div class="4u$"><span class="image fit"><a href="images/food/full/PP2-4.JPG" target="_blank"><img src="images/food/PP2-4.JPG" alt="" /></a></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP2-2.JPG" onclick="openModal();currentSlide(7)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP2-3.JPG" onclick="openModal();currentSlide(8)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP2-4.JPG" onclick="openModal();currentSlide(9)" alt="" /></span></div>
 								</div>
 							</div>
 						</section>
@@ -70,18 +71,159 @@
 									<p>Below is the most recent photoshoot</p>
 								</header>
 								<div class="box alt">
-								<a href="images/food/full/PP2-5.JPG" class="image main" target="_blank"><img src="images/food/PP2-5.JPG" alt="greentops" /></a>
+								<img src="images/food/PP2-5.JPG" onclick="openModal();currentSlide(10)"alt="greentops" />
 								<div class="row 50% uniform">
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP2-6.JPG" target="_blank"><img src="images/food/PP2-6.JPG" alt="" /></a></span></div>
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP2-7.JPG" target="_blank"><img src="images/food/PP2-7.JPG" alt="" /></a></span></div>
-									<div class="4u$"><span class="image fit"><a href="images/food/full/PP2-8.JPG" target="_blank"><img src="images/food/PP2-8.JPG" alt="" /></a></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP2-6.JPG" onclick="openModal();currentSlide(11)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP2-7.JPG" onclick="openModal();currentSlide(12)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP2-8.JPG" onclick="openModal();currentSlide(13)" alt="" /></span></div>
 									<!-- Break -->
-									<div class="4u"><span class="image fit"><a href="images/food/full/PP2-9.JPG" target="_blank"><img src="images/food/PP2-9.JPG" alt="" /></a></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP2-9.JPG" onclick="openModal();currentSlide(14)" alt="" /></span></div>
 								</div>
 							</div>
 								<center><h3>More on the way!</h3></center>
 					 </section>
 
+					 <!-- The Modal/Lightbox -->
+					 <div id="myModal" class="modal">
+					   <span class="close cursor" onclick="closeModal()">&times;</span>
+					   <div class="modal-content">
+
+					     <div class="mySlides">
+					       <div class="numbertext">1 / 14</div>
+					       <img src="images/food/full/PP1-1.JPG" style="width:100%">
+					     </div>
+
+					     <div class="mySlides">
+					       <div class="numbertext">2 / 14</div>
+					       <img src="images/food/full/PP1-2.JPG" style="width:100%">
+					     </div>
+
+					     <div class="mySlides">
+					       <div class="numbertext">3 / 14</div>
+					       <img src="images/food/full/PP1-3.JPG" style="width:100%">
+					     </div>
+
+					     <div class="mySlides">
+					       <div class="numbertext">4 / 14</div>
+					       <img src="images/food/full/PP1-4.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">5 / 14</div>
+					       <img src="images/food/full/PP1-5.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">6 / 14</div>
+					       <img src="images/food/full/PP2-1.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+							 	<div class="numbertext">7 / 14</div>
+							 	<img src="images/food/full/PP2-2.JPG" style="width:100%">
+							 </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">8 / 14</div>
+					       <img src="iimages/food/full/PP2-3.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">9 / 14</div>
+					       <img src="images/food/full/PP2-4.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">10 / 14</div>
+					       <img src="images/food/full/PP2-5.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">11 / 14</div>
+					       <img src="images/food/full/PP2-6.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">12 / 14</div>
+					       <img src="images/food/full/PP2-7.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">13 / 14</div>
+					       <img src="images/food/full/PP2-8.JPG" style="width:100%">
+					     </div>
+
+							 <div class="mySlides">
+					       <div class="numbertext">14 / 14</div>
+					       <img src="images/food/full/PP2-9.JPG" style="width:100%">
+					     </div>
+					     <!-- Next/previous controls -->
+					     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					     <!-- Caption text -->
+					     <div class="caption-container">
+					       <p id="caption"></p>
+					     </div>
+
+					     <!-- Thumbnail image controls -->
+					     <div class="column">
+					       <img class="demo" src="images/food/PP1-1.JPG" onclick="currentSlide(1)" alt="one bite BLT">
+					     </div>
+
+					     <div class="column">
+					       <img class="demo" src="images/food/PP1-2.JPG" onclick="currentSlide(2)" alt="roasted beet salad with pickled strawberries and jalapeños, goat cheese, fig balsamic beet dressing, candied spiced pecans">
+					     </div>
+
+					     <div class="column">
+					       <img class="demo" src="images/food/PP1-3.JPG" onclick="currentSlide(3)" alt="Laotian beef app, seared tenderloin, fish sauce, lime juice, red wine, Thai basil, lemongrass, crispy shallots, fried capers">
+					     </div>
+
+					     <div class="column">
+					       <img class="demo" src="images/food/PP1-4.JPG" onclick="currentSlide(4)" alt="seared scallops, roasted fennel, pea tendrils salad, bacon crisps, caramelized strawberry cream sauce">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP1-5.JPG" onclick="currentSlide(5)" alt="chocolate torte, beet and fig cream sauce, goat cheese cream, candied spiced pecans, candied basil">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-1.JPG" onclick="currentSlide(6)" alt="Platter: Fruit Salsa Crostini">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-2.JPG" onclick="currentSlide(7)" alt="greentops">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-3.JPG" onclick="currentSlide(8)" alt="Austrailian Burgers">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-4.JPG" onclick="currentSlide(9)" alt="Tenderloin Tostadas">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-5.JPG" onclick="currentSlide(10)" alt="Greentop">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-6.JPG" onclick="currentSlide(11)" alt="Fruit Salsa Crostini">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-7.JPG" onclick="currentSlide(12)" alt="Tenderloin Tostada">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-8.JPG" onclick="currentSlide(13)" alt="Australian burger">
+					     </div>
+
+							 <div class="column">
+					       <img class="demo" src="images/food/PP2-9.JPG" onclick="currentSlide(14)" alt="Waldorf Chicken Salad">
+					     </div>
+					   </div>
+					 </div>
 					</div>
 				<!-- Footer -->
 					<footer id="footer">
@@ -155,6 +297,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="scripts/gallery.js"></script>
 
 	</body>
 </html>
