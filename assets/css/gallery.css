@@ -21,7 +21,7 @@ Code borrowed and modified from W3schools.com
 /* The Modal (background) */
 .modal {
   display: none;
-  position: fixed;
+  position: relative;
   z-index: 1;
   padding-top: 100px;
   padding-bottom: 100px;
