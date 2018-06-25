@@ -21,7 +21,7 @@ Code borrowed and modified from W3schools.com
 */
 /* The Modal (background) */
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -38,8 +38,9 @@ Code borrowed and modified from W3schools.com
   position: relative;
   background-color: #fefefe;
   margin: auto;
-  padding: 0;
+  padding: 0 0 0 0;
   width: 90%;
+  height: 90%;
   max-width: 1200px;
 }
 
