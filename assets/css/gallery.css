@@ -34,7 +34,7 @@ Code borrowed and modified from W3schools.com
 
 /* Modal Content */
 .modal-content {
-  position: relative;
+  position: center;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
