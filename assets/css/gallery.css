@@ -2,6 +2,7 @@
 Phantom Inc 2018
 Code borrowed and modified from W3schools.com
 */
+/*
 .row > .column {
   padding: 0 8px;
 }
@@ -11,25 +12,24 @@ Code borrowed and modified from W3schools.com
   display: table;
   clear: both;
 }
-
+*/
 /* Create four equal columns that floats next to eachother */
-.column {
+/*.column {
   float: left;
   width: 25%;
 }
-
+*/
 /* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
-  padding-bottom: 100px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  /*overflow: auto;*/
+  overflow: auto;
   background-color: black;
 }
 
@@ -47,7 +47,7 @@ Code borrowed and modified from W3schools.com
 /* The Close Button */
 .close {
   color: white;
-  position: absolute;
+  position: relative;
   top: 10px;
   right: 25px;
   font-size: 35px;
@@ -70,7 +70,7 @@ Code borrowed and modified from W3schools.com
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   padding: 16px;
