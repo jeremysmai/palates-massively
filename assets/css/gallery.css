@@ -38,9 +38,8 @@ Code borrowed and modified from W3schools.com
   position: relative;
   background-color: #fefefe;
   margin: auto;
-  padding: 0 0 0 0;
+  padding: 0;
   width: 90%;
-  height: 90%;
   max-width: 1200px;
 }
 
