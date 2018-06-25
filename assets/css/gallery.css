@@ -30,6 +30,7 @@ Code borrowed and modified from W3schools.com
   height: 100%;
   overflow: auto;
   background-color: black;
+  margin: auto;
 }
 
 /* Modal Content */
