@@ -109,6 +109,7 @@ Code borrowed and modified from W3schools.com
   background-color: black;
   padding: 2px 16px;
   color: white;
+  font: inherit;
 }
 
 img.demo {
