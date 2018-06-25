@@ -1,6 +1,7 @@
 /* Phantom Inc 2018
 Gallery Script Below, borrowed and modified from W3schools.com
 */
+
 // Open the Modal
 function openModal() {
   document.getElementById('myModal').style.display = "block";
