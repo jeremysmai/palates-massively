@@ -4,7 +4,7 @@ Gallery Script Below, borrowed and modified from W3schools.com
 
 // Open the Modal
 function openModal() {
-  document.getElementById('myModal').style.display = "flex";
+  document.getElementById('myModal').style.display = "inline-block";
 }
 
 // Close the Modal
@@ -38,7 +38,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "inline-block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
