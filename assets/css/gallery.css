@@ -29,7 +29,7 @@ Code borrowed and modified from W3schools.com
   left: 0;
   top: 0;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: black;
 }
 
