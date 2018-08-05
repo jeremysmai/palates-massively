@@ -21,6 +21,7 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 
 ### To Do
+ - [ ] Optimize Photo Page for speed, use quick references or find reliable photo hosting service
  - [x] Add Logo To All Pages
  - [x] Build Index
  - [x] Build About
