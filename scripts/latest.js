@@ -13,33 +13,33 @@ function closeLatest() {
   document.getElementById('myLatest').style.display = "none";
 }
 
-var slideIndex = 1;
-showlatestSlides(slideIndex);
+var latestslideIndex = 1;
+showlatestSlides(latestslideIndex);
 
 // Next/previous controls
 function pluslatestSlides(n) {
-  showlatestSlides(slideIndex += n);
+  showlatestSlides(latestslideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showlatestSlides(slideIndex = n);
+function currentlatestSlide(n) {
+  showlatestSlides(latestslideIndex = n);
 }
 
-function showSlides(n) {
+function showlatestSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("latestSlides");
+  var latestslides = document.getElementsByClassName("latestSlides");
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  if (n > latestslides.length) {latestslideIndex = 1}
+  if (n < 1) {latestslideIndex = latestslides.length}
+  for (i = 0; i < latestslides.length; i++) {
+    latestslides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  latestslides[latestslideIndex-1].style.display = "block";
+  dots[latestslideIndex-1].className += " active";
+  captionText.innerHTML = dots[latestslideIndex-1].alt;
 }
