@@ -60,12 +60,12 @@
 									<p>Below is the most recent foodshoot</p>
 								</header>
 								<div class="box alt">
-								<a onclick="openLatest();currentSlide(1)" class="image main"><img src="images/rotate/PP3-1.JPG" alt="bigshot" /></a>
+								<a onclick="openModal();currentSlide(15)" class="image main"><img src="images/rotate/PP3-1.JPG" alt="bigshot" /></a>
 								<div class="row 50% uniform">
 									<!-- ~ Break ~ FoodShoot3 -->
-									<div class="4u"><span class="image fit"><img src="images/food/PP3-2.JPG" onclick="openLatest();currentSlide(2)" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/food/PP3-3.JPG" onclick="openLatest();currentSlide(3)" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/food/PP3-4.JPG" onclick="openLatest();currentSlide(4)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP3-2.JPG" onclick="openModal();currentSlide(16)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP3-3.JPG" onclick="openModal();currentSlide(17)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP3-4.JPG" onclick="openModal();currentSlide(18)" alt="" /></span></div>
 								</div>
 							</div>
 								<center><h3>More on the way!</h3></center>
@@ -171,42 +171,36 @@
 					       <div class="numbertext">14 / 18</div>
 					       <img src="images/food/full/PP2-9.JPG" style="width:100%"/>
 					     </div>
+							 <!-- Latest Serving Modal Starts Here -->
 
+							 <div class="mySlides">
+								 <div class="numbertext">1 / 4</div>
+								 <img src="images/food/full/PP3-1.JPG" style="width:100%"/>
+						  </div>
+
+					  	<div class="mySlides">
+								<div class="numbertext">2 / 4</div>
+								<img src="images/food/full/PP3-2.JPG" style="width:100%"/>
+						  </div>
+
+						 <div class="mySlides">
+						   <div class="numbertext">3 / 4</div>
+						   <img src="images/food/full/PP3-3.JPG" style="width:100%"/>
+						 </div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="images/food/full/PP3-4.JPG" style="width:100%"/>
+						</div>
 					     <!-- Next/previous controls -->
 					     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 					     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-					   </div>
+
 					 </div>
 
-<!-- Latest Serving Modal Starts Here -->
-					 <div id="myLatest" class="latest">
-					   <span class="close cursor" onclick="closeLatest()">&times;</span>
-					   <div class="latest-content">
 
-							 	  		 <div class="latestSlides">
-				 							 	<div class="numbertext">1 / 4</div>
-  			 							 	<img src="images/food/full/PP3-1.JPG" style="width:100%"/>
-				 							 </div>
 
-				 							 <div class="latestSlides">
-				 					       <div class="numbertext">2 / 4</div>
-				 					       <img src="images/food/full/PP3-2.JPG" style="width:100%"/>
-									     </div>
-
-					 						 <div class="latestSlides">
-					 				       <div class="numbertext">3 / 4</div>
-					 				       <img src="images/food/full/PP3-3.JPG" style="width:100%"/>
-					 				     </div>
-
-					 						 <div class="latestSlides">
-					 						 	<div class="numbertext">4 / 4</div>
-					 						 	<img src="images/food/full/PP3-4.JPG" style="width:100%"/>
-					 						</div>
-										<!-- Next/previous controls -->
-										<a class="prev" onclick="pluslatestSlides(-1)">&#10094;</a>
-										<a class="next" onclick="pluslatestSlides(1)">&#10095;</a>
-						</div>
 					</div>
 				</div>
 				<!-- Footer -->
@@ -264,6 +258,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="scripts/gallery.js"></script>
-			<script src="scripts/latest.js"></script>
+			
 	</body>
 </html>
