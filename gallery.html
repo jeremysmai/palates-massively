@@ -60,12 +60,12 @@
 									<p>Below is the most recent foodshoot</p>
 								</header>
 								<div class="box alt">
-								<a onclick="openModal();currentSlide(15)" class="image main"><img src="images/rotate/PP3-1.JPG" alt="bigshot" /></a>
+								<a onclick="Latest();currentSlide(1)" class="image main"><img src="images/rotate/PP3-1.JPG" alt="bigshot" /></a>
 								<div class="row 50% uniform">
 									<!-- ~ Break ~ FoodShoot3 -->
-									<div class="4u"><span class="image fit"><img src="images/food/PP3-2.JPG" onclick="openModal();currentSlide(16)" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/food/PP3-3.JPG" onclick="openModal();currentSlide(17)" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/food/PP3-4.JPG" onclick="openModal();currentSlide(18)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP3-2.JPG" onclick="openLatest();currentSlide(2)" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/food/PP3-3.JPG" onclick="openLatest();currentSlide(3)" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/food/PP3-4.JPG" onclick="openLatest();currentSlide(4)" alt="" /></span></div>
 								</div>
 							</div>
 								<center><h3>More on the way!</h3></center>
@@ -172,94 +172,42 @@
 					       <img src="images/food/full/PP2-9.JPG" style="width:100%"/>
 					     </div>
 
-							 <div class="mySlides">
-							 	<div class="numbertext">15 / 18</div>
-							 	<img src="images/food/full/PP3-1.JPG" style="width:100%"/>
-							 </div>
-
-							 <div class="mySlides">
-					       <div class="numbertext">16 / 18</div>
-					       <img src="images/food/full/PP3-2.JPG" style="width:100%"/>
-					     </div>
-
-							 <div class="mySlides">
-					       <div class="numbertext">17 / 18</div>
-					       <img src="images/food/full/PP3-3.JPG" style="width:100%"/>
-					     </div>
-
-							 <div class="mySlides">
-							 	<div class="numbertext">18 / 18</div>
-							 	<img src="images/food/full/PP3-4.JPG" style="width:100%"/>
-							 </div>
-
 					     <!-- Next/previous controls -->
 					     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 					     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-					     <!-- Caption text -->
-					     <!--<div class="caption-container">
-					       <p id="caption"></p>
-					     </div>-->
-
-					     <!-- Thumbnail image controls -->
-					     <!--<div class="column">
-					       <img class="demo" src="images/food/PP1-1.JPG" onclick="currentSlide(1)" alt="one bite BLT">
-					     </div>
-
-					     <div class="column">
-					       <img class="demo" src="images/food/PP1-2.JPG" onclick="currentSlide(2)" alt="roasted beet salad with pickled strawberries and jalapeños, goat cheese, fig balsamic beet dressing, candied spiced pecans">
-					     </div>
-
-					     <div class="column">
-					       <img class="demo" src="images/food/PP1-3.JPG" onclick="currentSlide(3)" alt="Laotian beef app, seared tenderloin, fish sauce, lime juice, red wine, Thai basil, lemongrass, crispy shallots, fried capers">
-					     </div>
-
-					     <div class="column">
-					       <img class="demo" src="images/food/PP1-4.JPG" onclick="currentSlide(4)" alt="seared scallops, roasted fennel, pea tendrils salad, bacon crisps, caramelized strawberry cream sauce">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP1-5.JPG" onclick="currentSlide(5)" alt="chocolate torte, beet and fig cream sauce, goat cheese cream, candied spiced pecans, candied basil">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-1.JPG" onclick="currentSlide(6)" alt="Platter: Fruit Salsa Crostini">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-2.JPG" onclick="currentSlide(7)" alt="greentops">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-3.JPG" onclick="currentSlide(8)" alt="Austrailian Burgers">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-4.JPG" onclick="currentSlide(9)" alt="Tenderloin Tostadas">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-5.JPG" onclick="currentSlide(10)" alt="Greentop">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-6.JPG" onclick="currentSlide(11)" alt="Fruit Salsa Crostini">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-7.JPG" onclick="currentSlide(12)" alt="Tenderloin Tostada">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-8.JPG" onclick="currentSlide(13)" alt="Australian burger">
-					     </div>
-
-							 <div class="column">
-					       <img class="demo" src="images/food/PP2-9.JPG" onclick="currentSlide(14)" alt="Waldorf Chicken Salad">
-					     </div> -->
 					   </div>
 					 </div>
+
+<!-- Latest Serving Modal Starts Here -->
+					 <div id="myLatest" class="latest">
+					   <span class="close cursor" onclick="closeModal()">&times;</span>
+					   <div class="latest-content">
+							 	  		 <div class="latestSlides">
+				 							 	<div class="numbertext">1 / 4</div>
+  			 							 	<img src="images/food/full/PP3-1.JPG" style="width:100%"/>
+				 							 </div>
+
+				 							 <div class="latestSlides">
+				 					       <div class="numbertext">2 / 4</div>
+				 					       <img src="images/food/full/PP3-2.JPG" style="width:100%"/>
+									     </div>
+
+					 						 <div class="latestSlides">
+					 				       <div class="numbertext">3 / 4</div>
+					 				       <img src="images/food/full/PP3-3.JPG" style="width:100%"/>
+					 				     </div>
+
+					 						 <div class="latestSlides">
+					 						 	<div class="numbertext">4 / 4</div>
+					 						 	<img src="images/food/full/PP3-4.JPG" style="width:100%"/>
+					 						</div>
+										<!-- Next/previous controls -->
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
 					</div>
+				</div>
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
@@ -273,25 +221,7 @@
 						 <li><a href="mailto:contact@personalizedpalates.com" class="button fit icon fa-envelope">E-mail</a></li>
 							 </ul>
 						</section>
-						<!--section>
-							<form method="post" action="#">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="3"></textarea>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section-->
+
 						<section class="split contact">
 							<section class="alt">
 								<h3>Serving</h3>
@@ -333,6 +263,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="scripts/gallery.js"></script>
-
+			<script src="scripts/latest.js"></script>
 	</body>
 </html>
