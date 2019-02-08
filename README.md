@@ -22,12 +22,5 @@ Palates-Massively by HTML5 UP - Touched By [jeremysmai](http://www.phantominc.ne
 
 ### To Do
  - [ ] Optimize Photo Page for speed, use quick references or find reliable photo hosting service
- - [x] Add Logo To All Pages
- - [x] Build Index
- - [x] Build About
- - [x] Build Contact
- - [x] Build Menus (PDFs included)
- - [x] Build Gallery
- - [x] Add Slideshow and randomize photos
 
 More In Depth [To Do](https://jeremysmai.github.io/personalizedpalates/Palates_SitePlan.html)
