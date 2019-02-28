@@ -30,6 +30,10 @@ var myPix = new Array("images/rotate/PP1-1.JPG",
                       "images/rotate/PP01-2.jpg",
                       "images/rotate/PP01-3.jpg",
                       "images/rotate/PP01-4.jpg",
+                      "images/rotate/PP02-1.jpg",
+                      "images/rotate/PP02-2.jpg",
+                      "images/rotate/PP02-3.jpg",
+                      "images/rotate/PP02-4.jpg",
                       );
 
 function choosePic() {
